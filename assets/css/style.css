@@ -1080,7 +1080,7 @@ td {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(241,242,243,0.8);
     -webkit-transition: background-color 300ms linear;
     transition: background-color 300ms linear;
     backdrop-filter: blur(10px);
@@ -1096,11 +1096,11 @@ td {
 }
 
 .vlt-header-holder[data-header-fixed="1"] {
-    background-color: transparent;
+    background-color:rgba(241,242,243,0.8) ;
 }
 
 .vlt-header-holder.is-white {
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(241,242,243,0.8);
 }
 
 .vlt-header-inner {

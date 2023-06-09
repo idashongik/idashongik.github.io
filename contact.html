@@ -17,16 +17,16 @@
 	<body>
 		<div class="vlt-site-holder animsition vlt-footer-fixed">
 			<div class="vlt-content-holder">
-				<header class="vlt-header-holder vlt-header-fixed" data-header-fixed="1">
+				<header class="vlt-header-holder vlt-header-fixed">
 					<div class="container">
 						<div class="vlt-header-inner">
 							<div class="vlt-header-left">
 								<a href="index.html" class="vlt-site-logo">
-								<img src="assets/img/logo.png" alt="Exhibition-Logo" style="max-height:2rem;">
+								<img src="assets/img/logo.png" alt="Exhibition-Logo">
 								</a>
 							</div>
 							<div class="vlt-header-right">
-								<div class="vlt-menu-toggle vlt-fullscreen-menu-toggle" data-before-text="Menu">
+								<div class="vlt-menu-toggle vlt-fullscreen-menu-toggle" data-before-text="Navigate">
 									<span class="line line-one"><span class="inner"></span></span>
 									<span class="line line-two"><span class="inner"></span></span>
 									<span class="line line-three"><span class="inner"></span></span>
@@ -39,14 +39,18 @@
 				<div class="vlt-navigation-fullscreen-holder">
 					<div class="vlt-navigation-fullscreen">
 						<ul>
-							<li><a href="index.html">HUMAN IN PROGRESS</a></li>
-							<li class="menu-item-has-children">
-								<a href="#" class="no-anims">By Works</a>
+							<li>
+								<a href="index.html">HUMAN IN PROGRESS</a>
 							</li>
-							<li class="menu-item-has-children">
-								<a href="#" class="no-anims">By Designer</a>
+							<li>
+								<a href="by-work">By Work</a>
 							</li>
-							<li><a href="contact.html">Contact</a></li>
+							<li >
+								<a href="by-designer">By Designer</a>
+							</li>
+							<li>
+								<a href="contact.html">Contact</a>
+							</li>
 						</ul>
 						<div class="vlt-navigation-socials">
 							<ul>
@@ -59,11 +63,10 @@
 					</div>
 				</div>
 				<!-- /.vlt-navigation-fullscreen-holder -->
-				<div class="vlt-hero-title-holder" style="background-image: url('assets/img/contact/contact-1.jpeg');">
-					<div class="vlt-hero-title-inner">
-						<h1 class="vlt-hero-title">Contact Us</h1>
-						<p class="vlt-hero-subtitle">Get in touch with us</p>
-					</div>
+				<div class="vlt-hero-title-holder jarallax" style="background-image: url('assets/img/contact/contact-1.jpeg');">
+					<!-- <div class="vlt-hero-title-inner">
+						<h1 class="vlt-hero-title">Contact & Location</h1>
+					</div> -->
 				</div>
 				<!-- /.vlt-hero-title-holder -->
 				<main class="vlt-main-holder vlt-main-padding">
@@ -73,7 +76,7 @@
 							<div class="col-md-5">
 								<div class="mb30">
 									<h5 class="uppercase mb10">Exhibition Info</h5>
-									<p>2023 SPRING, IDAS HONGIK UNIVERSITY<br> MASTERS DEGREE SHOW<br>
+									<p>2023 SPRING, IDAS HONGIK UNIVERSITY<br> MASTER'S DEGREE SHOW<br>
 										HUMAN IN PROGRESS : SURVIVING AI</p>
 									<dl>
 										<dt>Date & Time</dt>
@@ -106,16 +109,12 @@
 				<div class="vlt-footer-inner">
 					<div class="container">
 						<div class="text-center">
-							<div>							
+							<div style="margin-bottom:1rem;">							
 								<a href="index.html" class="vlt-site-logo">
-								<img src="assets/img/logo.png" alt="Degreeshow Logo" style="max-height: 2rem;">
+								<img src="assets/img/logo-footer.png" alt="Degreeshow Logo" style="max-height: 3rem;">
 								</a>
 							</div>
-							<div>
-								<a href="https://idas.hongik.ac.kr/" target="_blank" class="vlt-site-logo">
-								<img src="assets/img/logo-school.png" alt="Degreeshow Logo" style="max-height: 3rem;">
-								</a>
-							</div>
+
 							<div class="vlt-footer-menu">
 								<div>
 									<ul>
@@ -123,7 +122,7 @@
 											<a href="by-work.html">By Work</a>
 										</li>
 										<li>
-											<a href="by-deigner.html">By Designer</a>
+											<a href="by-designer.html">By Designer</a>
 										</li>
 										<li>
 											<a href="contact.html">Contact</a>
@@ -133,9 +132,10 @@
 								</div>
 							</div>
 							<div class="vlt-footer-copyright">
-								<p>COPYRIGHT ©<script>document.write(new Date().getFullYear())</script>. IDAS HONGIK UNIVERSITY.</p>
-								<p>2023 SPRING DEGREE SHOW: <a href="index.html" class="vlt-link reverse">HUMAN IN PROGRESS</a></p>
+								<p>COPYRIGHT ©<script>document.write(new Date().getFullYear())</script>. <a href='https://idas.hongik.ac.kr' class="vlt-link reverse">IDAS HONGIK UNIVERSITY</a></p>
+								<p style="font-size:12px;">2023 SPRING DEGREE SHOW: <a href="#" class="vlt-link reverse">HUMAN IN PROGRESS</a></p>
 							</div>
+							
 						</div>
 					</div>
 				</div>
@@ -143,7 +143,7 @@
 			<!-- /.vlt-footer-holder -->
 		</div>
 		<!-- /.vlt-site-holder -->
-		<a href="#" class="vlt-back-to-top hidden"><i class="fa fa-angle-up"></i></a>
+		<a href="#" class="vlt-back-to-top hidden"><b style="margin-right:4px;">(</b><b style="margin-left:4px;">)</b></a>
 		<!-- /.vlt-back-to-top -->
 	</body>
 	<!-- SCRIPTS -->

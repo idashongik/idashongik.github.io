@@ -11,6 +11,14 @@ Version: 1.0
 ----------------------------------------------------------*/
 /*  GENERAL STYLES
 ----------------------------------------------------------*/
+
+.vlt-portfolio-grid-image img{
+    height:320px!important;
+    width:100%;
+    object-fit: cover;
+
+}
+
 body {
     margin: 72px 0 0 0;
     padding: 0;
@@ -20,7 +28,7 @@ body {
     font-size: 15px;
     line-height: 1.25;
     letter-spacing: -0.2px;
-    color: #555;
+    color: #3e4549;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -3841,10 +3849,12 @@ a.vlt-link.reverse:hover::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,0.6);
     opacity: 0;
     -webkit-transition: all 300ms linear;
     transition: all 300ms linear;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
 }
 
 .vlt-portfolio-style2 .vlt-portfolio-grid-content {
@@ -4151,7 +4161,7 @@ a.vlt-link.reverse:hover::after {
 .vlt-hero-title-holder {
     padding-top: 180px;
     padding-bottom: 100px;
-    min-height: 80vh;
+    min-height: 60vh;
     background-color: #fff;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4163,6 +4173,26 @@ a.vlt-link.reverse:hover::after {
     -ms-flex-pack: center;
     justify-content: center;
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.vlt-hero-title-holder-work {
+    padding-top: 180px;
+    padding-bottom: 100px;
+    min-height: 80vh;
+    margin-bottom:8px;
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
@@ -4485,5 +4515,42 @@ a.vlt-link.reverse:hover::after {
     .vlt-hero-subtitle2{
         font-size:1rem;
         letter-spacing: 4px;
+    }
+    .vlt-hero-title-holder-work {
+        min-height: 40vh;
+        margin-bottom:4px;
+        background-color: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+}
+
+.thesis-abstract{
+    font-family: 'Noto Sans KR', sans-serif;
+    word-break: keep-all;
+    font-size:1rem;
+    font-weight:500;
+    line-height:1.5;
+    color:#3e4549;
+}
+
+@media (max-width: 767px) {
+    .thesis-abstract{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size:0.875rem;
+        font-weight:500;
+        line-height:1.5;
+
     }
 }

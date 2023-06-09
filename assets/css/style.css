@@ -1083,10 +1083,8 @@ td {
     -ms-user-select: none;
     user-select: none;
     background-color: rgba(241,242,243,0.8);
-    -webkit-transition: background-color 300ms linear;
-    transition: background-color 300ms linear;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 
 .vlt-header-holder[data-header-fixed="1"],
@@ -1100,10 +1098,14 @@ td {
 
 .vlt-header-holder[data-header-fixed="1"] {
     background-color:rgba(241,242,243,0.8) ;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 
 .vlt-header-holder.is-white {
     background-color: rgba(241,242,243,0.8);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 
 .vlt-header-inner {
@@ -4459,6 +4461,8 @@ a.vlt-link.reverse:hover::after {
 
 
 @media (max-width: 767px) {
+    body{    margin: 72px 0 0 0;
+    }
     .vlt-hero-title-inner .vlt-hero-title {
         font-size: 2rem;
     }

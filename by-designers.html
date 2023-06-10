@@ -63,60 +63,41 @@
 					</div>
 				</div>
 				<!-- /.vlt-navigation-fullscreen-holder -->
-				<div class="vlt-hero-title-holder jarallax" style="background-image: url('assets/img/contact/contact-1.png');">
-					<!-- <div class="vlt-hero-title-inner">
-						<h1 class="vlt-hero-title">Contact & Location</h1>
-					</div> -->
-				</div>
-				<!-- /.vlt-hero-title-holder -->
 				<main class="vlt-main-holder vlt-main-padding">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-5 mb30">
-								<dl style="margin-bottom:2rem;">
-									<dt>
-										<img src="assets/img/logo.png" alt="Degreeshow Logo" style="max-height: 3rem;">
-									</dt>
-								</dl>
-								<dl>
-									<dt>
-										<img src="assets/img/logo-school.png" alt="Degreeshow Logo" style="max-height: 4rem;">
-									</dt>
-								</dl>
-							</div>
-							<div class="col-md-7" style="line-height:1.5;">
-								<div class="mb30">
-									<h5 class="uppercase" style="margin-bottom:1rem;">Exhibition Info</h5>
-									<p>2023 SPRING, IDAS HONGIK UNIVERSITY<br> MASTER'S DEGREE SHOW<br>
-										HUMAN IN PROGRESS : SURVIVING AI</p>
-									<dl style="margin:2rem 0;">
-										<dt style="margin-bottom:8px;">Date & Time</dt>
-										<dd>2023.6.8 - 2023.6.18</dd>
-										<dd style="margin-bottom:1rem;">11:00 am - 7:00 pm</dd>
-
-										<dt style="margin-bottom:8px;">Phone</dt>
-										<dd style="margin-bottom:1rem;">+82-2-2176-5611~4</dd>
-										
-										<dt style="margin-bottom:8px;">Address</dt>
-										<dd>IDAS, Hongik Univeristy 101 Dogmak-ro, Mapo-gu, Seoul</dd>
-										<dd>서울특별시 마포구 독막로 101, 홍익대학교 국제디자인전문대학원</dd>
-
-									</dl>
-									<a class="vlt-single-icon" href="https://instagram.com/idas_hongik" target="_blank"><i class="fa fa-instagram"></i></a>
-									<a class="vlt-single-icon" href="https://idas.hongik.ac.kr/" target="_blank"><i class="fa fa-globe"></i></a>
-								</div>
-							</div>
-							<!-- <div class="col-md-5">
-								<img src="assets/img/contact/contact-2.png">
-									</div> -->
-								</div>
-							</div>
+						<div class="menu-box">
+							<div class="menu-list">
+								    <a class="list" href="designer/1-weiguanglu.html">Weiguang Lu</a>
+									<a class="list" href="designer/2-jaehyunlee.html">Jaehyun Lee · 이재현</a>
+									<a class="list" href="designer/3-gyeonghwangbo.html">Gyeong Hwangbo · 황보경</a>
+									<a class="list" href="designer/4-sangsuna.html">Sangsu Na · 나상수</a>
+									<a class="list" href="designer/5-heyjinkim.html">Heyjin Kim · 김혜진</a>
+									<a class="list" href="designer/6-jaeheelee.html">Jaehee Lee · 이재희</a>
+									<a class="list" href="designer/7-arisayongchuyot.html">Arisa Yongchuyot</a>
+									<a class="list" href="designer/8-hyewonwi.html">Hyewon Wi · 위혜원</a>
+									<a class="list" href="designer/9-jiwonjeong.html">Jiwon Jeong · 정지원</a>
+									<a class="list" href="designer/10-jayounghong.html">Jayoung Hong · 홍자영</a>
+									<a class="list" href="designer/11-hannalee.html">Hanna Lee · 이한나</a>
+									<a class="list" href="designer/12-lingduli.html">Lingdu Li</a>
+									<a class="list" href="designer/13-xinyiwang.html">Xinyi Wang</a>
+									<a class="list" href="designer/14-sookhyeonjang.html">Sookhyeon Jang · 장숙현</a>
+									<a class="list" href="designer/15-hyunjinkoh.html">Hyunjin Koh · 고현진</a>
+									<a class="list" href="designer/16-hyunjuhong.html">Hyunju Hong · 홍현주</a>
+									<a class="list" href="designer/17-doekyoungahn.html">Doekyoung Ahn · 안도경</a>
+									<a class="list" href="designer/18-jihwanbaek.html">Jihwan Baek · 백지환</a>
+									<a class="list" href="designer/19-jooyeonlee.html">Jooyeon Lee · 이주연</a>
+									<a class="list" href="designer/20-chungboklee.html">Chungbok Lee · 이충복</a>
+									<a class="list" href="designer/21-sungeunahn.html">Sungeun Ahn · 안성은</a>	
+						  </div>
+						</div>
+					</div>
 
 				</main>
 				<!-- /.vlt-main-holder vlt-main-padding -->
 			</div>
 			<!-- /.vlt-content-holder -->
-			<footer class="vlt-footer-holder vlt-footer-minimal" data-footer-fixed="0">
+			<!-- <footer class="vlt-footer-holder vlt-footer-minimal" data-footer-fixed="0">
 				<div class="vlt-footer-inner">
 					<div class="container">
 						<div class="text-left">
@@ -150,7 +131,7 @@
 						</div>
 					</div>
 				</div>
-			</footer>
+			</footer> -->
 			<!-- /.vlt-footer-holder -->
 		</div>
 		<!-- /.vlt-site-holder -->
@@ -373,4 +354,43 @@
 			});
 	</script>
 	<script src="assets/scripts/script.js"></script>
+	<!-- <script>const menuList = document.querySelector('.menu-list')
+		const atag = document.querySelectorAll(".list");
+		let curLen = 4; // Set index for active class
+		let len = atag.length;
+		
+		// Add class 'active' to the 'home' when page loaded
+		atag[curLen].classList.add('active')
+		// Get the current fixed height of the list class
+		const heightActiveClass = atag[curLen].getBoundingClientRect().height
+		// Multuply current index element with fixed height
+		const startYPos = curLen * heightActiveClass
+		// Set result number in style
+		menuList.style.transform = `translate(-50%, -${startYPos}px)`
+		
+		
+		function activeMenu(event) {
+		  if (event.wheelDelta > 0) {
+			if (curLen > 0) curLen--
+			  setActiveLinkWithArrows(atag)
+		  } else {
+			if ((len - curLen) > 1) curLen++
+			  setActiveLinkWithArrows(atag)
+		  }
+		}
+		
+		function setActiveLinkWithArrows(arr) {
+		  arr.forEach((el, idx) => {
+			if (curLen === idx) {
+			  el.classList.add("active")
+			  // Multuply current index element with fixed height
+			  const yPos = idx * heightActiveClass
+			  // Set result number in style
+			  menuList.style.transform = `translate(-50%, -${yPos}px)`
+			  return
+			}
+			el.classList.remove("active")
+		  });
+		}
+		window.addEventListener('wheel', activeMenu);</script>
 </html>

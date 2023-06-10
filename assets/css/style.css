@@ -1887,7 +1887,7 @@ td {
 
 .vlt-footer-holder .vlt-footer-inner {
     padding: 80px 0;
-    background-color: #ffffff;
+    background-color: #f7f8f9;
 }
 
 .vlt-footer-holder[data-footer-fixed="1"] {
@@ -1951,7 +1951,7 @@ td {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    margin: 0 1rem;
+    margin: 0 2rem 0 0;
 }
 
 .vlt-footer-holder .vlt-footer-inner .vlt-footer-menu ul li a {

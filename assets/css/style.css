@@ -3858,6 +3858,7 @@ a.vlt-link.reverse:hover::after {
 }
 
 .vlt-portfolio-style2 .vlt-portfolio-grid-content {
+    display:block;
     position: absolute;
     top: 50%;
     left: 0;
@@ -3882,6 +3883,12 @@ a.vlt-link.reverse:hover::after {
     font-size: 14px;
     color:#3e4549;
 }
+
+.vlt-portfolio-style2 .vlt-portfolio-grid-content-m {
+    display:none;
+
+}
+
 
 .vlt-portfolio-style2:hover .vlt-portfolio-grid-link::before {
     opacity: 1;
@@ -3949,6 +3956,16 @@ a.vlt-link.reverse:hover::after {
 @media (max-width: 767px) {
     .vlt-pricing-table {
         margin-bottom: 30px;
+    }
+    .vlt-portfolio-style2 .vlt-portfolio-grid-content{
+        display:none;
+    }
+    .vlt-portfolio-style2 .vlt-portfolio-grid-content-m{
+        display:block;
+        margin-top:8px;
+    }
+    .vlt-portfolio-style2 .vlt-portfolio-grid-content-m p{
+        margin-bottom:0;
     }
 }
 /*  SHORTCODE RANFOLIO

@@ -3879,7 +3879,8 @@ a.vlt-link.reverse:hover::after {
 
 .vlt-portfolio-style2 .vlt-portfolio-grid-content p {
     margin: 0;
-    font-size: 12px;
+    font-size: 14px;
+    color:#3e4549;
 }
 
 .vlt-portfolio-style2:hover .vlt-portfolio-grid-link::before {

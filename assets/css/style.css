@@ -2373,7 +2373,7 @@ font-size:1rem;
         width: 100%;
         position: fixed;
         top: 72px;
-        z-index: 888;
+        z-index: 444;
         padding:8px 0;
         background: rgba(0,0,0,0.8);
         backdrop-filter: blur(8px);

@@ -3872,6 +3872,7 @@ a.vlt-link.reverse:hover::after {
 
 .vlt-portfolio-style2 .vlt-portfolio-grid-link::before {
     content: '';
+    display:relative;
     position: absolute;
     top: 0;
     left: 0;
@@ -3994,6 +3995,9 @@ a.vlt-link.reverse:hover::after {
     }
     .vlt-portfolio-style2 .vlt-portfolio-grid-content-m p{
         margin-bottom:0;
+    }
+    .vlt-portfolio-style2 .vlt-portfolio-grid-link::before {
+        display:none;
     }
 }
 /*  SHORTCODE RANFOLIO

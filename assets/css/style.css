@@ -1971,7 +1971,8 @@ font-size:1rem;
 
 .vlt-footer-holder .vlt-footer-inner .vlt-footer-copyright {
     margin-top: 40px;
-    color: #3e4549;
+    font-weight: 500;
+    color: #aab1b8;
 }
 
 .vlt-footer-holder .vlt-footer-inner .vlt-footer-copyright p {
@@ -2003,7 +2004,8 @@ font-size:1rem;
 .vlt-footer-holder .vlt-footer-inner .vlt-footer-menu ul li a {
     text-transform: uppercase;
     font-size: 0.875rem;
-    color: #3e4549;
+    font-weight:bold;
+    color: #aab1b8;
 }
 
 .vlt-footer-holder .vlt-footer-inner .vlt-footer-menu ul li a:hover {
@@ -3921,6 +3923,7 @@ a.vlt-link.reverse:hover::after {
     transition: all 300ms linear;
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
+    border-radius:8px;
 }
 
 .vlt-portfolio-style2 .vlt-portfolio-grid-content {

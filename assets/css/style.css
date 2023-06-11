@@ -3882,6 +3882,7 @@ a.vlt-link.reverse:hover::after {
 }
 
 .vlt-portfolio-grid-filters .cbp-filter-item.cbp-filter-item-active {
+    border-radius:8px;
     background-color: #efefef;
 }
 

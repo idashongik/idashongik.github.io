@@ -4603,6 +4603,10 @@ a.vlt-link.reverse:hover::after {
     }
 }
 
+.font-kr{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
 .thesis-abstract{
     font-family: 'Noto Sans KR', sans-serif;
     word-break: keep-all;

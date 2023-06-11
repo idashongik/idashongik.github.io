@@ -61,6 +61,7 @@ img {
 
 .vlt-main-padding {
     padding: 90px 0;
+    border-top:1px solid #dee0e3;
 }
 
 .by-designers{
@@ -2338,6 +2339,10 @@ font-size:1rem;
 }
 /*  PAGE NAVIGATION
 ----------------------------------------------------------*/
+.designer-header{
+    padding-top:64px;
+}
+
 .vlt-page-navigation {
     margin-top: 50px;
 }
@@ -2362,8 +2367,13 @@ font-size:1rem;
 /*  PORTFOLIO NAVIGATION
 ----------------------------------------------------------*/
 .vlt-portfolio-navigation {
-    padding: 40px 0;
-    background-color: #000;
+        width: 100%;
+        position: fixed;
+        top: 72px;
+        z-index: 888;
+        padding:8px 0;
+        background: rgba(0,0,0,0.8);
+        backdrop-filter: blur(8px);
 }
 
 .vlt-portfolio-navigation .vlt-portfolio-navigation-inner {
@@ -2380,7 +2390,7 @@ font-size:1rem;
 
 .vlt-portfolio-navigation .vlt-portfolio-navigation-inner a,
 .vlt-portfolio-navigation .vlt-portfolio-navigation-inner span {
-    font-size: 18px;
+    font-size: 0.875rem;
 }
 
 .vlt-portfolio-navigation .vlt-portfolio-navigation-inner a {
@@ -2570,6 +2580,13 @@ font-size:1rem;
     .vlt-comments-holder {
         padding-right: 0;
     }
+    .vlt-portfolio-navigation {
+        top: 64px;
+}
+.designer-header{
+    padding-top:32px;
+}
+
 }
 
 .vlt-comment-form-holder {

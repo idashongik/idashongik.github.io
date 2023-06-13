@@ -64,6 +64,11 @@ img {
     border-top:1px solid #dee0e3;
 }
 
+.vlt-main-padding-vertical {
+    padding: 90px 0;
+    border-top:1px solid #dee0e3;
+}
+
 .by-designers{
     width:100%;
     font-size: 2rem;
@@ -78,6 +83,9 @@ img {
 @media (max-width: 767px) {
     .vlt-main-padding {
         padding-top: 64px;
+    }
+    .vlt-main-padding-vertical {
+        padding: 64px 0;
     }
     .vlt-portfolio-grid-image img{
         height:auto;
@@ -4268,11 +4276,9 @@ a.vlt-link.reverse:hover::after {
 }
 
 .vlt-hero-title-holder-work {
-    padding-top: 180px;
-    padding-bottom: 100px;
     min-height: 80vh;
-    margin-bottom:8px;
-    background-color: #fff;
+    margin-bottom:2px;
+    background-color: #dee0e3;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4622,9 +4628,9 @@ a.vlt-link.reverse:hover::after {
         letter-spacing: 4px;
     }
     .vlt-hero-title-holder-work {
-        min-height: 40vh;
-        margin-bottom:4px;
-        background-color: #fff;
+        min-height:40vh;
+        margin-bottom:2px;
+        background-color: #dee0e3;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -4634,13 +4640,31 @@ a.vlt-link.reverse:hover::after {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        background-size: contain;
+        background-size: contain 100% auto;
         background-position: center center;
         background-repeat: no-repeat;
-        width: 100%;
     }
 }
 
+@media (max-width: 481px) {
+    .vlt-hero-title-holder-work {
+        min-height:28vh;
+        margin-bottom:2px;
+        background-color: #dee0e3;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        background-size: contain 100% auto;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+}
 .font-kr{
     font-family: 'Noto Sans KR', sans-serif;
 }

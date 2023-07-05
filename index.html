@@ -1,8 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8RMKN7YRPH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8RMKN7YRPH');
+</script>
 		<meta charset="UTF-8">
-		<title>IDAS·HUMAN IN PROGRESS</title>
+		<title>IDAS: HUMAN IN PROGRESS</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- FAVICON -->
@@ -10,24 +19,34 @@
 		<!-- FONTS -->
 		<link rel="stylesheet" href="assets/fonts/fontawesome/font-awesome.min.css">
 		<link rel="stylesheet" href="assets/fonts/iconsmind/iconsmind.css">
+		<link rel="stylesheet" href="https://use.typekit.net/oij6gau.css">
 		<!-- STYLESHEETS -->
 		<link rel="stylesheet" href="assets/css/plugins.min.css">
 		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+		<!-- Open Graph -->
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://idashongik.github.io">
+		<meta property="og:title" content="IDAS: HUMAN IN PROGRESS">
+		<meta property="og:image" content="assets/img/og-preview.png">
+		<meta property="og:description" content="IDAS Hongik University holds a Master's degree exhibition every semester. And if you're reading this, it means you've been invited to an exhibition this semester.">
+		<meta property="og:site_name" content="IDAS HONGIK DEGREE SHOW">
+		<meta property="og:locale" content="en_US">
 	</head>
 
 	<body>
 		<div class="vlt-site-holder animsition vlt-footer-fixed">
 			<div class="vlt-content-holder">
-				<header class="vlt-header-holder vlt-header-fixed" data-header-fixed="1">
+				<header class="vlt-header-holder vlt-header-fixed">
 					<div class="container">
 						<div class="vlt-header-inner">
 							<div class="vlt-header-left">
 								<a href="index.html" class="vlt-site-logo">
-								<img src="assets/img/logo.png" alt="Exhibition-Logo" style="max-height:2rem;">
+								<img src="assets/img/logo.png" alt="Exhibition-Logo">
 								</a>
 							</div>
 							<div class="vlt-header-right">
-								<div class="vlt-menu-toggle vlt-fullscreen-menu-toggle" data-before-text="Menu">
+								<div class="vlt-menu-toggle vlt-fullscreen-menu-toggle" data-before-text="Navigate">
 									<span class="line line-one"><span class="inner"></span></span>
 									<span class="line line-two"><span class="inner"></span></span>
 									<span class="line line-three"><span class="inner"></span></span>
@@ -40,14 +59,18 @@
 				<div class="vlt-navigation-fullscreen-holder">
 					<div class="vlt-navigation-fullscreen">
 						<ul>
-							<li><a href="index.html">HUMAN IN PROGRESS</a></li>
-							<li class="menu-item-has-children">
-								<a href="#" class="no-anims">By Works</a>
+							<li>
+								<a style="font-size:1rem; font-weight:bold;" href="index.html">HUMAN IN PROGRESS</a>
 							</li>
-							<li class="menu-item-has-children">
-								<a href="#" class="no-anims">By Designer</a>
+							<li style="margin-bottom:1rem;">
+								<a style="font-size:0.875rem;" href="index.html">Surviving AI</a>
 							</li>
-							<li><a href="contact.html">Contact</a></li>
+							<!-- <li>
+								<a href="by-designers.html">By Designers</a>
+							</li> -->
+							<li>
+								<a href="contact.html">Contact</a>
+							</li>
 						</ul>
 						<div class="vlt-navigation-socials">
 							<ul>
@@ -60,135 +83,458 @@
 					</div>
 				</div>
 				<!-- /.vlt-navigation-fullscreen-holder -->
-				<div class="vlt-hero-title-holder jarallax" style="background-image: url('assets/img/index.jpg');">
+				<div class="vlt-hero-title-holder jarallax" style="background-image: url('assets/img/main/main-1.png');">
 					<div class="vlt-hero-title-inner">
-						<h1 class="vlt-hero-title">IDAS HONGIK UNIVERSITY</h1>
-						<h1 class="vlt-hero-subtitle">MASTER DEGREE SHOW 2023 SPRING</h1>
+						<h3 class="vlt-hero-subtitle">IDAS | SPRING 2023</h3>
+						<h1 class="vlt-hero-title">HUMAN IN PROGRESS</h1>
+						<h3 class="vlt-hero-subtitle2">Surviving AI</h5>
 					</div>
 				</div>
 				<!-- /.vlt-hero-title-holder -->
 				<main class="vlt-main-holder vlt-main-padding">
 					<div class="container">
 						<div class="vlt-portfolio-grid-filters">
-							<div data-filter="*" class="cbp-filter-item cbp-filter-item-active"><span>All</span></div>
-							<div data-filter=".portfolio_category-branding" class="cbp-filter-item"><span>Smart Design Engineering</span></div>
-							<div data-filter=".portfolio_category-design" class="cbp-filter-item"><span>Digital Media Design</span></div>
-							<div data-filter=".portfolio_category-photo" class="cbp-filter-item"><span>Design Management</span></div>
+							<div data-filter="*" class="cbp-filter-item cbp-filter-item-active"><span>All Majors</span></div>
+							<div data-filter=".portfolio_category-sde" class="cbp-filter-item"><span>Smart Design Engineering</span></div>
+							<div data-filter=".portfolio_category-dmd" class="cbp-filter-item"><span>Digital Media Design</span></div>
+							<div data-filter=".portfolio_category-dm" class="cbp-filter-item"><span>Design Management</span></div>
 						</div>
 						<div class="vlt-portfolio-grid cubeportfolio" id="cubeportfolio">
-							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-photo">
+							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-dmd">
 								<div class="vlt-portfolio-grid-image">
-									<a class="vlt-portfolio-grid-link" href="portfolio-single.html">
-									<img src="assets/img/portfolio/1.jpg" alt="">
+									<a class="vlt-portfolio-grid-link" href="designer/1-weiguanglu.html">
+									<img src="assets/img/deisgner/1-weiguanglu/poster.png" alt="">
 									</a>
 								</div>
 								<div class="vlt-portfolio-grid-content">
-									<h5 class="vlt-portfolio-grid-title">Tkalnia Dywanów</h5>
-									<p class="vlt-portfolio-grid-cat">Photo</p>
+									<h5 class="vlt-portfolio-grid-title">Weiguang Lu</h5>
+									<p class="vlt-portfolio-grid-cat">Digital Media Design</p>
+								</div>
+								<div class="vlt-portfolio-grid-content-m">
+									<a class="vlt-portfolio-grid-link" href="designer/1-weiguanglu.html">
+									<h5 class="vlt-portfolio-grid-title">Weiguang Lu</h5>
+									<p class="vlt-portfolio-grid-cat">Digital Media Design</p>
+									</a>
 								</div>
 							</article>
 							<!-- /.cbp-item  -->
-							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-design">
+							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-sde">
 								<div class="vlt-portfolio-grid-image">
-									<a class="vlt-portfolio-grid-link" href="portfolio-single.html">
-									<img src="assets/img/portfolio/2.jpg" alt="">
+									<a class="vlt-portfolio-grid-link" href="designer/2-jaehyunlee.html">
+									<img src="assets/img/deisgner/2-jaehyunlee/poster.png" alt="">
 									</a>
 								</div>
 								<div class="vlt-portfolio-grid-content">
-									<h5 class="vlt-portfolio-grid-title">Oakfusion</h5>
-									<p class="vlt-portfolio-grid-cat">Design</p>
+									<h5 class="vlt-portfolio-grid-title">Jaehyun Lee</h5>
+									<p class="vlt-portfolio-grid-cat">Smart Design Engineering</p>
+								</div>
+								<div class="vlt-portfolio-grid-content-m">
+									<a class="vlt-portfolio-grid-link" href="designer/2-jaehyunlee.html">
+									<h5 class="vlt-portfolio-grid-title">Jaehyun Lee</h5>
+									<p class="vlt-portfolio-grid-cat">Smart Design Engineering</p>
+									</a>
 								</div>
 							</article>
 							<!-- /.cbp-item  -->
-							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-photo">
+							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-dmd">
 								<div class="vlt-portfolio-grid-image">
-									<a class="vlt-portfolio-grid-link" href="portfolio-single.html">
-									<img src="assets/img/portfolio/3.jpg" alt="">
+									<a class="vlt-portfolio-grid-link" href="designer/3-gyeonghwangbo.html">
+									<img src="assets/img/deisgner/3-gyeonghwangbo/poster.png" alt="">
 									</a>
 								</div>
 								<div class="vlt-portfolio-grid-content">
-									<h5 class="vlt-portfolio-grid-title">Ride &amp; Travel</h5>
-									<p class="vlt-portfolio-grid-cat">Photo</p>
+									<h5 class="vlt-portfolio-grid-title">Gyeong Hwangbo</h5>
+									<p class="vlt-portfolio-grid-cat">Digital Media Design</p>
+								</div>
+								<div class="vlt-portfolio-grid-content-m">
+									<a class="vlt-portfolio-grid-link" href="designer/3-gyeonghwangbo.html">
+									<h5 class="vlt-portfolio-grid-title">Gyeong Hwangbo</h5>
+									<p class="vlt-portfolio-grid-cat">Digital Media Design</p>
+									</a>
 								</div>
 							</article>
 							<!-- /.cbp-item  -->
-							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-design">
+							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-sde">
 								<div class="vlt-portfolio-grid-image">
-									<a class="vlt-portfolio-grid-link" href="portfolio-single.html">
-									<img src="assets/img/portfolio/4.jpg" alt="">
+									<a class="vlt-portfolio-grid-link" href="designer/4-sangsuna.html">
+									<img src="assets/img/deisgner/4-sangsuna/poster.png" alt="">
 									</a>
 								</div>
 								<div class="vlt-portfolio-grid-content">
-									<h5 class="vlt-portfolio-grid-title">Logo</h5>
-									<p class="vlt-portfolio-grid-cat">Design</p>
+									<h5 class="vlt-portfolio-grid-title">Sangsu Na</h5>
+									<p class="vlt-portfolio-grid-cat">Smart Design Engineering</p>
+								</div>
+								<div class="vlt-portfolio-grid-content-m">
+									<a class="vlt-portfolio-grid-link" href="designer/4-sangsuna.html">
+									<h5 class="vlt-portfolio-grid-title">Sangsu Na</h5>
+									<p class="vlt-portfolio-grid-cat">Smart Design Engineering</p>
+									</a>
 								</div>
 							</article>
 							<!-- /.cbp-item  -->
-							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-design">
+							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-dm">
 								<div class="vlt-portfolio-grid-image">
-									<a class="vlt-portfolio-grid-link" href="portfolio-single.html">
-									<img src="assets/img/portfolio/5.jpg" alt="">
+									<a class="vlt-portfolio-grid-link" href="designer/5-heyjinkim.html">
+									<img src="assets/img/deisgner/5-heyjinkim/poster.png" alt="">
 									</a>
 								</div>
 								<div class="vlt-portfolio-grid-content">
-									<h5 class="vlt-portfolio-grid-title">Renner</h5>
-									<p class="vlt-portfolio-grid-cat">Design</p>
+									<h5 class="vlt-portfolio-grid-title">Heyjin Kim</h5>
+									<p class="vlt-portfolio-grid-cat">Design Management</p>
+								</div>
+								<div class="vlt-portfolio-grid-content-m">
+									<a class="vlt-portfolio-grid-link" href="designer/5-heyjinkim.html">
+									<h5 class="vlt-portfolio-grid-title">Heyjin Kim</h5>
+									<p class="vlt-portfolio-grid-cat">Design Management</p>
+									</a>
 								</div>
 							</article>
 							<!-- /.cbp-item  -->
-							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-branding">
+							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-dm">
 								<div class="vlt-portfolio-grid-image">
-									<a class="vlt-portfolio-grid-link" href="portfolio-single.html">
-									<img src="assets/img/portfolio/6.jpg" alt="">
+									<a class="vlt-portfolio-grid-link" href="designer/6-jaeheelee.html">
+									<img src="assets/img/deisgner/6-jaeheelee/poster.png" alt="">
 									</a>
 								</div>
 								<div class="vlt-portfolio-grid-content">
-									<h5 class="vlt-portfolio-grid-title">2kul Interior Design</h5>
-									<p class="vlt-portfolio-grid-cat">Branding</p>
+									<h5 class="vlt-portfolio-grid-title">Jaehee Lee</h5>
+									<p class="vlt-portfolio-grid-cat">Design Management</p>
+								</div>
+								<div class="vlt-portfolio-grid-content-m">
+									<a class="vlt-portfolio-grid-link" href="designer/6-jaeheelee.html">
+									<h5 class="vlt-portfolio-grid-title">Jaehee Lee</h5>
+									<p class="vlt-portfolio-grid-cat">Design Management</p>
+									</a>
 								</div>
 							</article>
 							<!-- /.cbp-item  -->
-							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-photo">
+							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-dm">
 								<div class="vlt-portfolio-grid-image">
-									<a class="vlt-portfolio-grid-link" href="portfolio-single.html">
-									<img src="assets/img/portfolio/7.jpg" alt="">
+									<a class="vlt-portfolio-grid-link" href="designer/7-arisayongchuyot.html">
+									<img src="assets/img/deisgner/7-arisayongchuyot/poster.png" alt="">
 									</a>
 								</div>
 								<div class="vlt-portfolio-grid-content">
-									<h5 class="vlt-portfolio-grid-title">Typografia</h5>
-									<p class="vlt-portfolio-grid-cat">Photo</p>
+									<h5 class="vlt-portfolio-grid-title">Arisa Yongchuyot</h5>
+									<p class="vlt-portfolio-grid-cat">Design Management</p>
+								</div>
+								<div class="vlt-portfolio-grid-content-m">
+									<a class="vlt-portfolio-grid-link" href="designer/7-arisayongchuyot.html">
+									<h5 class="vlt-portfolio-grid-title">Arisa Yongchuyot</h5>
+									<p class="vlt-portfolio-grid-cat">Design Management</p>
+									</a>
 								</div>
 							</article>
 							<!-- /.cbp-item  -->
-							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-design">
+							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-dm">
 								<div class="vlt-portfolio-grid-image">
-									<a class="vlt-portfolio-grid-link" href="portfolio-single.html">
-									<img src="assets/img/portfolio/8.jpg" alt="">
+									<a class="vlt-portfolio-grid-link" href="designer/8-hyewonwi.html">
+									<img src="assets/img/deisgner/8-hyewonwi/poster.png" alt="">
 									</a>
 								</div>
 								<div class="vlt-portfolio-grid-content">
-									<h5 class="vlt-portfolio-grid-title">Designer Portfolio</h5>
-									<p class="vlt-portfolio-grid-cat">Design</p>
+									<h5 class="vlt-portfolio-grid-title">Hyewon Wi</h5>
+									<p class="vlt-portfolio-grid-cat">Design Management</p>
+								</div>
+								<div class="vlt-portfolio-grid-content-m">
+									<a class="vlt-portfolio-grid-link" href="designer/8-hyewonwi.html">
+									<h5 class="vlt-portfolio-grid-title">Hyewon Wi</h5>
+									<p class="vlt-portfolio-grid-cat">Design Management</p>
+									</a>
 								</div>
 							</article>
 							<!-- /.cbp-item  -->
-							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-branding">
+							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-dm">
 								<div class="vlt-portfolio-grid-image">
-									<a class="vlt-portfolio-grid-link" href="portfolio-single.html">
-									<img src="assets/img/portfolio/9.jpg" alt="">
+									<a class="vlt-portfolio-grid-link" href="designer/9-jiwonjeong.html">
+									<img src="assets/img/deisgner/9-jiwonjeong/poster.png" alt="">
 									</a>
 								</div>
 								<div class="vlt-portfolio-grid-content">
-									<h5 class="vlt-portfolio-grid-title">Shifting Perspective</h5>
-									<p class="vlt-portfolio-grid-cat">Branding</p>
+									<h5 class="vlt-portfolio-grid-title">Jiwon Jeong</h5>
+									<p class="vlt-portfolio-grid-cat">Design Management</p>
+								</div>
+								<div class="vlt-portfolio-grid-content-m">
+									<a class="vlt-portfolio-grid-link" href="designer/9-jiwonjeong.html">
+									<h5 class="vlt-portfolio-grid-title">Jiwon Jeong</h5>
+									<p class="vlt-portfolio-grid-cat">Design Management</p>
+									</a>
 								</div>
 							</article>
 							<!-- /.cbp-item  -->
+							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-dm">
+								<div class="vlt-portfolio-grid-image">
+									<a class="vlt-portfolio-grid-link" href="designer/10-jayounghong.html">
+									<img src="assets/img/deisgner/10-jayounghong/poster.png" alt="">
+									</a>
+								</div>
+								<div class="vlt-portfolio-grid-content">
+									<h5 class="vlt-portfolio-grid-title">Jayoung Hong</h5>
+									<p class="vlt-portfolio-grid-cat">Desgin Management</p>
+								</div>
+								<div class="vlt-portfolio-grid-content-m">
+									<a class="vlt-portfolio-grid-link" href="designer/10-jayounghong.html">
+									<h5 class="vlt-portfolio-grid-title">Jayoung Hong</h5>
+									<p class="vlt-portfolio-grid-cat">Desgin Management</p>
+									</a>
+								</div>
+							</article>
+							<!-- /.cbp-item  -->
+							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-dm">
+								<div class="vlt-portfolio-grid-image">
+									<a class="vlt-portfolio-grid-link" href="designer/11-hannalee.html">
+									<img src="assets/img/deisgner/11-hannalee/poster.png" alt="">
+									</a>
+								</div>
+								<div class="vlt-portfolio-grid-content">
+									<h5 class="vlt-portfolio-grid-title">Hanna Lee</h5>
+									<p class="vlt-portfolio-grid-cat">Design Management</p>
+								</div>
+								<div class="vlt-portfolio-grid-content-m">
+									<a class="vlt-portfolio-grid-link" href="designer/11-hannalee.html">
+									<h5 class="vlt-portfolio-grid-title">Hanna Lee</h5>
+									<p class="vlt-portfolio-grid-cat">Design Management</p>
+									</a>
+								</div>
+							</article>
+							<!-- /.cbp-item  -->
+							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-dmd">
+								<div class="vlt-portfolio-grid-image">
+									<a class="vlt-portfolio-grid-link" href="designer/12-lingduli.html">
+									<img src="assets/img/deisgner/12-lingduli/poster.png" alt="">
+									</a>
+								</div>
+								<div class="vlt-portfolio-grid-content">
+									<h5 class="vlt-portfolio-grid-title">Lingdu Li</h5>
+									<p class="vlt-portfolio-grid-cat">Digital Media Design</p>
+								</div>
+								<div class="vlt-portfolio-grid-content-m">
+									<a class="vlt-portfolio-grid-link" href="designer/12-lingduli.html">
+									<h5 class="vlt-portfolio-grid-title">Lingdu Li</h5>
+									<p class="vlt-portfolio-grid-cat">Digital Media Design</p>
+									</a>
+								</div>
+							</article>
+							<!-- /.cbp-item  -->
+							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-dm">
+								<div class="vlt-portfolio-grid-image">
+									<a class="vlt-portfolio-grid-link" href="designer/13-xinyiwang.html">
+									<img src="assets/img/deisgner/13-xinyiwang/poster.png" alt="">
+									</a>
+								</div>
+								<div class="vlt-portfolio-grid-content">
+									<h5 class="vlt-portfolio-grid-title">Xinyi Wang</h5>
+									<p class="vlt-portfolio-grid-cat">Design Management</p>
+								</div>
+								<div class="vlt-portfolio-grid-content-m">
+									<a class="vlt-portfolio-grid-link" href="designer/13-xinyiwang.html">
+									<h5 class="vlt-portfolio-grid-title">Xinyi Wang</h5>
+									<p class="vlt-portfolio-grid-cat">Design Management</p>
+									</a>
+								</div>
+							</article>
+							<!-- /.cbp-item  -->
+							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-dm">
+								<div class="vlt-portfolio-grid-image">
+									<a class="vlt-portfolio-grid-link" href="designer/14-sookhyeonjang.html">
+									<img src="assets/img/deisgner/14-sookhyeonjang/poster.png" alt="">
+									</a>
+								</div>
+								<div class="vlt-portfolio-grid-content">
+									<h5 class="vlt-portfolio-grid-title">Sookhyeon Jang</h5>
+									<p class="vlt-portfolio-grid-cat">Design Management</p>
+								</div>
+								<div class="vlt-portfolio-grid-content-m">
+									<a class="vlt-portfolio-grid-link" href="designer/14-sookhyeonjang.html">
+									<h5 class="vlt-portfolio-grid-title">Sookhyeon Jang</h5>
+									<p class="vlt-portfolio-grid-cat">Design Management</p>
+									</a>
+								</div>
+							</article>
+							<!-- /.cbp-item  -->
+							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-dm">
+								<div class="vlt-portfolio-grid-image">
+									<a class="vlt-portfolio-grid-link" href="designer/15-hyunjinkoh.html">
+									<img src="assets/img/deisgner/15-hyunjinkoh/poster.png" alt="">
+									</a>
+								</div>
+								<div class="vlt-portfolio-grid-content">
+									<h5 class="vlt-portfolio-grid-title">Hyunjin Koh</h5>
+									<p class="vlt-portfolio-grid-cat">Design Management</p>
+								</div>
+								<div class="vlt-portfolio-grid-content-m">
+									<a class="vlt-portfolio-grid-link" href="designer/15-hyunjinkoh.html">
+									<h5 class="vlt-portfolio-grid-title">Hyunjin Koh</h5>
+									<p class="vlt-portfolio-grid-cat">Design Management</p>
+									</a>
+								</div>
+							</article>
+							<!-- /.cbp-item  -->
+							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-dmd">
+								<div class="vlt-portfolio-grid-image">
+									<a class="vlt-portfolio-grid-link" href="designer/16-hyunjuhong.html">
+									<img src="assets/img/deisgner/16-hyunjuhong/poster.png" alt="">
+									</a>
+								</div>
+								<div class="vlt-portfolio-grid-content">
+									<h5 class="vlt-portfolio-grid-title">Hyunju Hong</h5>
+									<p class="vlt-portfolio-grid-cat">Digital Media Design</p>
+								</div>
+								<div class="vlt-portfolio-grid-content-m">
+									<a class="vlt-portfolio-grid-link" href="designer/16-hyunjuhong.html">
+									<h5 class="vlt-portfolio-grid-title">Hyunju Hong</h5>
+									<p class="vlt-portfolio-grid-cat">Digital Media Design</p>
+									</a>
+								</div>
+							</article>
+							<!-- /.cbp-item  -->
+							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-dmd">
+								<div class="vlt-portfolio-grid-image">
+									<a class="vlt-portfolio-grid-link" href="designer/17-doekyoungahn.html">
+									<img src="assets/img/deisgner/17-doekyoungahn/poster.png" alt="">
+									</a>
+								</div>
+								<div class="vlt-portfolio-grid-content">
+									<h5 class="vlt-portfolio-grid-title">Doekyoung Ahn</h5>
+									<p class="vlt-portfolio-grid-cat">Digital Media Design</p>
+								</div>
+								<div class="vlt-portfolio-grid-content-m">
+									<a class="vlt-portfolio-grid-link" href="designer/17-doekyoungahn.html">
+									<h5 class="vlt-portfolio-grid-title">Doekyoung Ahn</h5>
+									<p class="vlt-portfolio-grid-cat">Digital Media Design</p>
+									</a>
+								</div>
+							</article>
+							<!-- /.cbp-item  -->
+							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-sde">
+								<div class="vlt-portfolio-grid-image">
+									<a class="vlt-portfolio-grid-link" href="designer/18-jihwanbaek.html">
+									<img src="assets/img/deisgner/18-jihwanbaek/poster.png" alt="">
+									</a>
+								</div>
+								<div class="vlt-portfolio-grid-content">
+									<h5 class="vlt-portfolio-grid-title">Jihwan Baek</h5>
+									<p class="vlt-portfolio-grid-cat">Smart Design Engineering</p>
+								</div>
+								<div class="vlt-portfolio-grid-content-m">
+									<a class="vlt-portfolio-grid-link" href="designer/18-jihwanbaek.html">
+									<h5 class="vlt-portfolio-grid-title">Jihwan Baek</h5>
+									<p class="vlt-portfolio-grid-cat">Smart Design Engineering</p>
+									</a>
+								</div>
+							</article>
+							<!-- /.cbp-item  -->
+							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-dmd">
+								<div class="vlt-portfolio-grid-image">
+									<a class="vlt-portfolio-grid-link" href="designer/19-jooyeonlee.html">
+									<img src="assets/img/deisgner/19-jooyeonlee/poster.png" alt="">
+									</a>
+								</div>
+								<div class="vlt-portfolio-grid-content">
+									<h5 class="vlt-portfolio-grid-title">Jooyeon Lee</h5>
+									<p class="vlt-portfolio-grid-cat">Digital Media Design</p>
+								</div>
+								<div class="vlt-portfolio-grid-content-m">
+									<a class="vlt-portfolio-grid-link" href="designer/19-jooyeonlee.html">
+									<h5 class="vlt-portfolio-grid-title">Jooyeon Lee</h5>
+									<p class="vlt-portfolio-grid-cat">Digital Media Design</p>
+									</a>
+								</div>
+							</article>
+							<!-- /.cbp-item  -->
+							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-dm">
+								<div class="vlt-portfolio-grid-image">
+									<a class="vlt-portfolio-grid-link" href="designer/20-chungboklee.html">
+									<img src="assets/img/deisgner/20-chungboklee/poster.png" alt="">
+									</a>
+								</div>
+								<div class="vlt-portfolio-grid-content">
+									<h5 class="vlt-portfolio-grid-title">Chungbok Lee</h5>
+									<p class="vlt-portfolio-grid-cat">Design Management</p>
+								</div>
+								<div class="vlt-portfolio-grid-content-m">
+									<a class="vlt-portfolio-grid-link" href="designer/20-chungboklee.html">
+									<h5 class="vlt-portfolio-grid-title">Chungbok Lee</h5>
+									<p class="vlt-portfolio-grid-cat">Design Management</p>
+									</a>
+								</div>
+							</article>
+							<!-- /.cbp-item  -->
+							<article class="cbp-item vlt-portfolio-grid-item vlt-portfolio-style2 portfolio_category-dm">
+								<div class="vlt-portfolio-grid-image">
+									<a class="vlt-portfolio-grid-link" href="designer/21-sungeunahn.html">
+									<img src="assets/img/deisgner/21-sungeunahn/poster.png" alt="">
+									</a>
+								</div>
+								<div class="vlt-portfolio-grid-content">
+									<h5 class="vlt-portfolio-grid-title">Sungeun Ahn</h5>
+									<p class="vlt-portfolio-grid-cat">Design Management</p>
+								</div>
+								<div class="vlt-portfolio-grid-content-m">
+									<a class="vlt-portfolio-grid-link" href="designer/21-sungeunahn.html">
+									<h5 class="vlt-portfolio-grid-title">Sungeun Ahn</h5>
+									<p class="vlt-portfolio-grid-cat">Design Management</p>
+									</a>
+								</div>
+							</article>
+							<!-- /.cbp-item  -->
+							
 						</div>
-						<nav class="vlt-pagination-load-more-btn" data-max-pages="1">
-							<a href="load-more-portfolio-page-1.html" class="vlt-btn vlt-btn-primary vlt-btn-ajax-load">Load More</a>
-						</nav>
-					</div>
+					</div>				
+						<section class="vlt-main-padding" style="margin:4rem 0;">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-4">
+									<h3 class="mb30">From Director</h3>
+									<div class="vlt-single-image mb30">
+										<img src="assets/img/davidhall.png" alt="Professor David Hall" style="border-radius:8px;">
+										<h5 style="margin-top:2rem;">Prof. David Hall</h5>
+										<p>June. 2023</p>
+									</div>
+									<!-- /.vlt-single-image mb30 -->
+								</div>
+								<div class="col-md-8">
+									<h3 class="mb0">More Human than Human</h3>
+									<p class="mb10">
+										<i>Philip K Dick</i>
+									</p>								
+									<p class="mb10">
+										The ongoing revolution of AI ( and AGI ) will only be a problem for those artists and designers whose work is formulaic and an aggregation. Soon finally the only ones left will be the actual human creatives. Searching and analysing the internet for inspiration is what the present day AIs do very well, and as such those behaviours we can not compete with.
+									</p>
+									<p class="mb10">
+										Like photography allowed painters to be free of the constraints of realism, AI will ( and has already started ) make the vast majority of lawyers, coders , photographers and engineers redundant. Many design disciplines have already started to feel this process.
+									</p>	
+									<p class="mb30">
+										The great reset is not what we thought it was, it is something much more insideous.
+										So this is our task, and our method of survival. Identify what was lost as human creatives.
+										The so called AI apocalypse may seem terrifying but we see it as an opportunity.
+									</p>	
+										<p class="mb10">
+										<b>The exhibition</b>
+										</p>
+										<p class="mb30">
+										Why vertical screens in portrait format?
+										This is an emulation of an oversized telephone interface. Its the primary method that people engage and interact with the internet.
+										</p>
+	
+										<p class="mb10">
+										<b>Why Projectors?</b>
+										</p>
+										<p class="mb10">
+										This is a kind escape from the present day hand held device. The images in our exhibition look more augmented, images in space.
+										</p>
+										
+										<p class="mb30">
+										Whats the abstract animation and projection?
+										This is an transformative augmented reality display.
+										In the daytime it looks flat and sculptural and in the evening transforms.
+										Even when the gallery is inaccessible the passersby can engage with the exhibition.		
+										</p>
+									
+								</div>
+							</div>
+						</div>
+					</section>
 				</main>
 				<!-- /.vlt-main-holder vlt-main-padding -->
 			</div>
@@ -196,25 +542,18 @@
 			<footer class="vlt-footer-holder vlt-footer-minimal" data-footer-fixed="0">
 				<div class="vlt-footer-inner">
 					<div class="container">
-						<div class="text-center">
+						<div class="text-left">
 							<div>							
 								<a href="index.html" class="vlt-site-logo">
-								<img src="assets/img/logo.png" alt="Degreeshow Logo" style="max-height: 2rem;">
+								<img src="assets/img/logo-footer.png" alt="Degreeshow Logo" style="max-height: 2rem;">
 								</a>
 							</div>
-							<div>
-								<a href="https://idas.hongik.ac.kr/" target="_blank" class="vlt-site-logo">
-								<img src="assets/img/logo-school.png" alt="Degreeshow Logo" style="max-height: 3rem;">
-								</a>
-							</div>
+
 							<div class="vlt-footer-menu">
 								<div>
 									<ul>
 										<li>
-											<a href="by-work.html">By Work</a>
-										</li>
-										<li>
-											<a href="by-designer.html">By Designer</a>
+											<a href="index.html">Home</a>
 										</li>
 										<li>
 											<a href="contact.html">Contact</a>
@@ -224,9 +563,10 @@
 								</div>
 							</div>
 							<div class="vlt-footer-copyright">
-								<p>COPYRIGHT ©<script>document.write(new Date().getFullYear())</script>. IDAS HONGIK UNIVERSITY.</p>
-								<p>2023 SPRING DEGREE SHOW: <a href="#" class="vlt-link reverse">HUMAN IN PROGRESS</a></p>
+								<p>COPYRIGHT ©<script>document.write(new Date().getFullYear())</script>. <a href='https://idas.hongik.ac.kr' class="vlt-link reverse">IDAS HONGIK UNIVERSITY</a></p>
+								<p style="font-size:12px;">2023 SPRING DEGREE SHOW: <a href="#" class="vlt-link reverse">HUMAN IN PROGRESS</a></p>
 							</div>
+							
 						</div>
 					</div>
 				</div>
@@ -234,7 +574,7 @@
 			<!-- /.vlt-footer-holder -->
 		</div>
 		<!-- /.vlt-site-holder -->
-		<a href="#" class="vlt-back-to-top hidden"><i class="fa fa-angle-up"></i></a>
+		<a href="#" class="vlt-back-to-top hidden"><b style="margin-right:4px;">(</b><i class="bi bi-arrow-up-short"></i><b style="margin-left:4px;">)</b></a>
 		<!-- /.vlt-back-to-top -->
 	</body>
 	<!-- SCRIPTS -->
